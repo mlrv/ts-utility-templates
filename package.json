@@ -3,12 +3,18 @@
   "version": "0.0.1",
   "main": "./src/main/index.d.ts",
   "types": "./src/main/index.d.ts",
+  "scripts": {
+    "docs": "typedoc --out docs src/main/index.d.ts",
+    "docs:publish": "npm run docs && surge --domain ts-utility-templates.surge.sh docs/"
+  },
   "files": [
     "src/main"
   ],
   "author": "mlrv",
   "license": "MIT",
   "devDependencies": {
-    "conditional-type-checks": "^1.0.5"
+    "conditional-type-checks": "^1.0.5",
+    "typedoc": "^0.20.1",
+    "typescript": "^4.1.0"
   }
 }
