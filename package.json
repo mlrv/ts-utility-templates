@@ -1,0 +1,14 @@
+{
+  "name": "ts-utility-templates",
+  "version": "0.0.1",
+  "main": "./src/main/index.d.ts",
+  "types": "./src/main/index.d.ts",
+  "files": [
+    "src/main"
+  ],
+  "author": "mlrv",
+  "license": "MIT",
+  "devDependencies": {
+    "conditional-type-checks": "^1.0.5"
+  }
+}
